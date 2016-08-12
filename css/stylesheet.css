@@ -43,3 +43,7 @@ footer {
   text-decoration: none;
   color: #404040;
 }
+
+.nav-link:hover {
+  text-decoration: underline;
+}
