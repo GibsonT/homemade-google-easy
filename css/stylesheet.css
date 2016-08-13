@@ -124,12 +124,15 @@ button {
   width: 39em;
   height: 3em;
   margin: auto;
-  margin-bottom: 20.7em;
   position: bottom;
   padding-left: 10.5em;
 }
 
 #footer {
+  position: fixed;
+  top: 94.5%;
+  left: 0;
+  width: 100%;
   clear: both;
   height: 2.6em;
   margin: 0;
