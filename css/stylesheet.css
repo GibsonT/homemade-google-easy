@@ -61,11 +61,10 @@ footer {
   /*border: 1px solid black;*/
 }
 
-#search-section > input {
+#search-text {
   display: block;
   border: 1px solid #D9D9D9;
   float: left;
-  /*margin: auto;*/
   margin-left: 1.75em;
   height: 2.5em;
   width: 93.75%;
@@ -77,10 +76,10 @@ footer {
   background-position: 98.5% 50%;
 }
 
-#search-section > input:hover {
+#search-text:hover {
   border: 1px solid darkgray;
 }
 
-#search-section > input:focus {
+#search-text:focus {
   border: 1px solid #195ACB;
 }
