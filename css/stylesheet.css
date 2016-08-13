@@ -8,6 +8,13 @@ footer {
 
 }
 
+button {
+  border-radius: 2px;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+
 .nav-link {
   float: right;
   margin: 0.70em 0.4em 0.6em 0.8em;
@@ -22,16 +29,22 @@ footer {
   text-decoration: underline;
 }
 
+.search-buttons {
+  background-color: #F4F4F4;
+  color: #8A8A8A;
+  margin-top: 2.5em;
+  margin-left: 0.15em;
+  margin-right: 0.15em;
+  align-items: center;
+  height: 2.75em;
+}
+
 #sign-in-button {
   float: right;
   width: 5.5em;
   height: 2.25em;
   background-color: #4386FB;
   color: white;
-  border-radius: 2px;
-  border: none;
-  font-size: 13px;
-  font-weight: bold;
 }
 
 #gapps-link {
@@ -58,7 +71,6 @@ footer {
   margin: auto;
   width: 39em;
   padding: auto;
-  /*border: 1px solid black;*/
 }
 
 #search-text {
@@ -82,4 +94,21 @@ footer {
 
 #search-text:focus {
   border: 1px solid #195ACB;
+}
+
+#main-search-button {
+  width: 10em;
+}
+
+#feeling-lucky-button {
+  width: 11em;
+}
+
+#search-buttons-section {
+  display: block;
+  width: 39em;
+  height: 3em;
+  margin: auto;
+  position: bottom;
+  padding-left: 10.5em;
 }
